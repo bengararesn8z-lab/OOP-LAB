@@ -22,7 +22,7 @@ public:
     void printAll() const {
         for (const auto& p : people)
             p.print();
-        cout << "----------------------" << endl;
+        cout << endl;
     }
     // sortare dupa varsta descrescator
     void sortByAgeDesc() {
